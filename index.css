@@ -1,0 +1,39 @@
+/* @import url("https://fonts.googleapis.com/css?family=Open+Sans"); */
+html {
+  height: 100%;
+}
+html body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(#1e130c, #9a8478);
+  overflow: hidden;
+}
+html body .property-name, html body .close-button {
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+  font-size: 1em;
+}
+html body .container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+html body .container .captcha {
+  position: relative;
+}
+html body .container .captcha #c {
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #000;
+  box-shadow: 0 0 6px 1px currentColor;
+  transition: color 0.3s;
+}
+html body .container .captcha #puzzle {
+  position: absolute;
+  left: 0;
+}
+html body .container .captcha input {
+  position: absolute;
+  width: 100%;
+}

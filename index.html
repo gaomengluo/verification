@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片滑动验证码</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="captcha">
+            <canvas id="c"></canvas>
+            <canvas id="puzzle"></canvas>
+            <input id="slider" type="range" value="0" min="0" step="1" />
+        </div>
+    </div>
+</body>
+
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.6.2/dat.gui.min.js"></script>
+<script src="./index.js"></script>
